@@ -1,2 +1,2 @@
 # VoidAPI
-Apí nodejs with mongodb backand (mongo atlas)
+VoidAPI is a Restful api witch nodejs e mongodb, using express, mongoose frameworks. 
