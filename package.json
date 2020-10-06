@@ -4,6 +4,7 @@
   "description": "VoidAPI is a Restful api witch nodejs e mongodb, using express, mongoose frameworks. ",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/gabrielzfx/VoidAPI/issues"
   },
-  "homepage": "https://github.com/gabrielzfx/VoidAPI#readme"
+  "homepage": "https://github.com/gabrielzfx/VoidAPI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
 }
