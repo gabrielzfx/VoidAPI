@@ -13,7 +13,7 @@ connection.on('open', () => {
 
 app.use(express.json())
 
-const alienRouter = require('./routes/generic')
+const genericRouter = require('./routes/generic')
 app.use('/generic',genericRouter)
 
 app.listen(9000, () => {
