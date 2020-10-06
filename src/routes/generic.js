@@ -8,7 +8,7 @@ router.get('/', async(req,res) => {
            const generic = await Generic.find()
            res.json(generic)
     }catch(err){
-        res.send('Error ' + err)
+        res.send('Error ')
     }
 })
 

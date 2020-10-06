@@ -1,8 +1,8 @@
 {
   "name": "voidapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "VoidAPI is a Restful api witch nodejs e mongodb, using express, mongoose frameworks. ",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

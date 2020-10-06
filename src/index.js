@@ -19,6 +19,7 @@ mongoose.connect(url, {useNewUrlParser:true, useUnifiedTopology: true })
 const connection = mongoose.connection
 
 app.use(express.json())
+
 connection.on('open', () => {
     console.log('connected...')
 })
@@ -26,6 +27,7 @@ connection.on('open', () => {
 const genericRouter = require('./routes/generic')
 app.use('/generic',genericRouter)
 
-app.listen(3600, () => {
+app.listen(9000, () => {
     console.log('Server started')
 })
+
