@@ -1,7 +1,5 @@
 # VoidAPI
 
-![void-git-title](https://user-images.githubusercontent.com/36008397/95199701-3d0d0e80-07ab-11eb-8a46-f0b8018182cb.png)
-
 ## What is VoidAPI?
 
     VoidAPI is a Restful procedural api witch nodejs e mongodb, using express and mongoose frameworks.
